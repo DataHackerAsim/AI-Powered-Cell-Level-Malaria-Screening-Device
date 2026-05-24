@@ -1,6 +1,6 @@
 # MalariaSense
 
-YOLOv11x-based malaria parasite detection from Giemsa-stained thin blood smear microscopy images, with a Raspberry Pi 5 deployment target.
+YOLOv11l-based malaria parasite detection from Giemsa-stained thin blood smear microscopy images, with a Raspberry Pi 5 deployment target.
 
 ![Training Batch — Multi-stain detection with class annotations](docs/training_samples/train_batch0.jpg)
 
@@ -30,7 +30,7 @@ Hyperparasitaemia (>10%) is flagged in line with WHO guidance that P. falciparum
 
 | Stage | Method |
 |-------|--------|
-| **Detection backbone** | YOLOv11x fine-tuned on BBBC041 + NIH-NLM datasets |
+| **Detection backbone** | YOLOv11l fine-tuned on BBBC041 + NIH-NLM datasets |
 | **Tiling** | SAHI-style overlapping tiles (see Inference Configurations below) |
 | **Stain invariance** | Reinhard colour transfer + aggressive HSV augmentation during training |
 | **Class imbalance** | Inverse-frequency loss weighting (236:1 imbalance ratio) |
@@ -52,7 +52,7 @@ The published evaluation metrics below were generated using the desktop configur
 
 ## Evaluation Results
 
-Fine-tuned YOLOv11x evaluated on the validation split (15% held out, stratified).
+Fine-tuned YOLOv11l evaluated on the validation split (15% held out, stratified).
 
 ### Per-Class Performance (AP@0.5)
 
@@ -100,7 +100,7 @@ Ground-truth labels (left) and model predictions (right) on validation tiles:
 
 ## Training Details
 
-- **Model:** YOLOv11x (pretrained on COCO → fine-tuned)
+- **Model:** YOLOv11l (pretrained on COCO → fine-tuned)
 - **Dataset:** 1,208 images → SAHI-tiled → ~340K tile-annotation pairs
 - **Imbalance ratio:** 236:1 (Uninfected : Gametocyte)
 - **Hardware:** NVIDIA RTX 5070 (8 GB VRAM)
