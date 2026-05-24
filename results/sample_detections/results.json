@@ -1,0 +1,185 @@
+[
+  {
+    "image": "9172(3).bmp",
+    "size": [
+      2048,
+      1536
+    ],
+    "stain_type": "blue",
+    "preprocessing": {
+      "strong_sharpening": true,
+      "denoised": true,
+      "contrast_enhanced": true,
+      "brightness_reduced": true
+    },
+    "processing_time": 1.91,
+    "tiles_processed": 12,
+    "total_detections": 13,
+    "parasite_count": 4,
+    "rbc_count": 13,
+    "parasitemia": 30.77,
+    "severity": "Severe (>10%)",
+    "counts": {
+      "Uninfected": 9,
+      "Parasitized": 4
+    },
+    "detections": [
+      {
+        "bbox": [
+          1515.3,
+          1075.0,
+          1601.2,
+          1163.3
+        ],
+        "confidence": 0.7158,
+        "class_id": 4,
+        "class_name": "Uninfected",
+        "is_parasite": false
+      },
+      {
+        "bbox": [
+          1904.4,
+          970.3,
+          1986.2,
+          1062.9
+        ],
+        "confidence": 0.6098,
+        "class_id": 4,
+        "class_name": "Uninfected",
+        "is_parasite": false
+      },
+      {
+        "bbox": [
+          217.5,
+          1365.0,
+          306.5,
+          1460.9
+        ],
+        "confidence": 0.5182,
+        "class_id": 4,
+        "class_name": "Uninfected",
+        "is_parasite": false
+      },
+      {
+        "bbox": [
+          1745.2,
+          1297.8,
+          1834.0,
+          1382.1
+        ],
+        "confidence": 0.4506,
+        "class_id": 4,
+        "class_name": "Uninfected",
+        "is_parasite": false
+      },
+      {
+        "bbox": [
+          1955.5,
+          492.4,
+          2046.2,
+          582.2
+        ],
+        "confidence": 0.4257,
+        "class_id": 4,
+        "class_name": "Uninfected",
+        "is_parasite": false
+      },
+      {
+        "bbox": [
+          1402.8,
+          159.5,
+          1499.6,
+          257.2
+        ],
+        "confidence": 0.4017,
+        "class_id": 4,
+        "class_name": "Uninfected",
+        "is_parasite": false
+      },
+      {
+        "bbox": [
+          1359.7,
+          785.3,
+          1439.3,
+          878.0
+        ],
+        "confidence": 0.3609,
+        "class_id": 4,
+        "class_name": "Uninfected",
+        "is_parasite": false
+      },
+      {
+        "bbox": [
+          543.8,
+          1284.0,
+          638.4,
+          1393.1
+        ],
+        "confidence": 0.3604,
+        "class_id": 4,
+        "class_name": "Uninfected",
+        "is_parasite": false
+      },
+      {
+        "bbox": [
+          133.1,
+          1086.0,
+          180.5,
+          1118.9
+        ],
+        "confidence": 0.2971,
+        "class_id": 5,
+        "class_name": "Parasitized",
+        "is_parasite": true
+      },
+      {
+        "bbox": [
+          1872.9,
+          254.0,
+          1960.0,
+          330.6
+        ],
+        "confidence": 0.2689,
+        "class_id": 4,
+        "class_name": "Uninfected",
+        "is_parasite": false
+      },
+      {
+        "bbox": [
+          1523.3,
+          1076.6,
+          1599.6,
+          1120.0
+        ],
+        "confidence": 0.1665,
+        "class_id": 5,
+        "class_name": "Parasitized",
+        "is_parasite": true
+      },
+      {
+        "bbox": [
+          2025.9,
+          569.1,
+          2048,
+          652.9
+        ],
+        "confidence": 0.1114,
+        "class_id": 5,
+        "class_name": "Parasitized",
+        "is_parasite": true
+      },
+      {
+        "bbox": [
+          304.4,
+          620.3,
+          371.8,
+          640.0
+        ],
+        "confidence": 0.1112,
+        "class_id": 5,
+        "class_name": "Parasitized",
+        "is_parasite": true
+      }
+    ]
+  }
+]

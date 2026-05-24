@@ -1,0 +1,23 @@
+# Model weights
+*.pt
+*.onnx
+*_ncnn_model/
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.egg-info/
+
+# OS / editor
+.DS_Store
+Thumbs.db
+*.swp
+*~
+.vscode/
+.idea/
+
+# Virtual environments
+venv/
+.venv/
+env/

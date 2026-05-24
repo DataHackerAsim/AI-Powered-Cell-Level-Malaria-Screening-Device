@@ -1,0 +1,8 @@
+# Raspberry Pi 5 application dependencies
+# Note: picamera2 is typically installed via Raspberry Pi OS system packages:
+#   sudo apt install python3-picamera2
+customtkinter>=5.2.0
+opencv-python>=4.8.0
+numpy>=1.24.0
+Pillow>=10.0.0
+ultralytics>=8.1.0

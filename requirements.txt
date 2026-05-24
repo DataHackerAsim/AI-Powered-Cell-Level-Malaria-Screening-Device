@@ -1,0 +1,8 @@
+# Common dependencies — see also:
+#   requirements-desktop.txt  (desktop/GPU analysis)
+#   requirements-rpi.txt      (Raspberry Pi 5 edge deployment)
+customtkinter>=5.2.0
+opencv-python>=4.8.0
+numpy>=1.24.0
+Pillow>=10.0.0
+ultralytics>=8.1.0

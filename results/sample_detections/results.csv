@@ -1,0 +1,2 @@
+Image,Width,Height,Stain,Preprocessed,Total,Parasites,RBCs,Parasitemia_%,Severity,Ring,Trophozoite,Schizont,Gametocyte,Uninfected,Parasitized,Babesia,Time_s
+9172(3).bmp,2048,1536,blue,True,13,4,13,30.77,Severe (>10%),0,0,0,0,9,4,0,1.91
